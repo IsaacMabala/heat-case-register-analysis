@@ -1,0 +1,9 @@
+Factor,Test,Statistic,p,"q (BH, exploratory designation family)",Note
+Season,Chi-square,Cramer's V 0.26,0.0077,0.0308,
+Occupation (production vs other),Chi-square,Cramer's V 0.04,0.575,0.657,
+Shift (day/night/not recorded),Chi-square,Cramer's V 0.17,0.0726,0.116,
+Previous episode recorded,Fisher exact,OR 3.0 (1.2-7.7),0.0184,0.0491,The primary-family q-value for the worker-context contrasts is in the statistical-tests table (worker-context family)
+Acute illness recorded,Fisher exact,OR 0.4 (0.2-0.9),0.039,0.078,The primary-family q-value for the worker-context contrasts is in the statistical-tests table (worker-context family)
+"Alcohol <=48 h or affirmed, documented",Fisher exact,OR 3.2 (0.7-14.4),0.163,0.217,The primary-family q-value for the worker-context contrasts is in the statistical-tests table (worker-context family)
+Medical condition recorded,Fisher exact,OR 0.9 (0.5-1.9),0.862,0.862,The primary-family q-value for the worker-context contrasts is in the statistical-tests table (worker-context family)
+Environmental reading recorded,Fisher exact,OR 82 (22-299),1.77e-19,1.41e-18,

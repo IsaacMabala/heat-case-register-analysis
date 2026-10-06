@@ -1,0 +1,21 @@
+source_field,provisional_category,matches,accept,reject,recode
+complaint,Complaint not acted on or hazard known,8,8,0,0
+complaint,Drinking-water shortage,2,2,0,0
+complaint,"Entry examination, temperature measurement or supervision not done",2,2,0,0
+complaint,"Fan not operating, not installed or obstructed",19,19,0,0
+complaint,"Local cooling equipment (cooling car, in-stope cooler)",2,0,0,2
+complaint,"Mine-level refrigeration (fridge plant, bulk air cooler, chilled water)",1,1,0,0
+complaint,Ore or material accumulation obstructing airflow,8,7,1,0
+complaint,Ventilation controls absent or substandard,11,10,0,1
+complaint,"Work organisation (staff shortage, overtime, long shift, extra task)",16,16,0,0
+investigation,Drinking-water shortage,2,2,0,0
+investigation,"Entry examination, temperature measurement or supervision not done",6,6,0,0
+investigation,"Fan not operating, not installed or obstructed",9,9,0,0
+investigation,"Local cooling equipment (cooling car, in-stope cooler)",25,24,1,0
+investigation,"Mine-level refrigeration (fridge plant, bulk air cooler, chilled water)",10,10,0,0
+investigation,No substandard condition identified,22,22,0,0
+investigation,Ore or material accumulation obstructing airflow,26,22,2,2
+investigation,Ventilation column or duct leakage or distance,11,8,0,3
+investigation,Ventilation controls absent or substandard,66,64,2,0
+investigation,"Water, wet conditions or fissure heat",25,18,7,0
+investigation,"Work organisation (staff shortage, overtime, long shift, extra task)",4,4,0,0

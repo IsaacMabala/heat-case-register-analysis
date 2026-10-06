@@ -1,0 +1,23 @@
+column,meaning
+case_id,Sequential case identifier; the mapping to the register row is held by the mine
+doa,Case date (date of attendance at the health centre)
+dx,Date of final diagnosis as parsed
+dx_lag_days,Days from case date to diagnosis date
+"year, month, season, weekday",Calendar fields of the case date (season: southern hemisphere); weekday is derived from the parsed case date
+designation,"Recorded designation: heat cramps, body cramps, heat stroke, unclassified"
+shaft,A or B (anonymised)
+level,Level number as recorded (nominal depth below collar; not comparable across shafts)
+"raise_code, section_code",Coded raise line and section (crosswalks held by the mine)
+employment,Permanent or contractor as recorded
+shift,"Day, Night or not recorded"
+"occ_group, occ_generic","Occupation group (keyword mapping in the Methodology); True where the raw label was the generic ""mining team"""
+Age,Age in years as recorded
+"wb, db, vel","Wet-bulb C, dry-bulb C and air velocity m/s at the case-linked reading, as recorded"
+qc_flag,"Velocity review class (copied-value logic failure; extreme high-value review; high-value review), blank if none"
+"triplet, complete",All three readings recorded; quality-valid (triplet and no review flag)
+"prev_episode, med_condition, med_control, acute_illness, alcohol",Recorded personal and worker-context fields as classified in the Methods
+alcohol_timing,"For the alcohol class: explicit timing within 48 h, or affirmed without timing (bare yes/possible)"
+"hts_months, hts_precision",Months since last heat-tolerance screening and precision of the screening date
+"workplace_recorded, complaint_present, complaint_words, investigation_words, inv_not_done",Presence and length of the text fields (the text itself is not included)
+"dup_candidate, doa_flag, dx_flag","Quality flags. In the analysis set (cases.csv) doa_flag and dx_flag mark the four corrected dates and dup_candidate the retained row of the duplicate pair; in cases_as_recorded.csv they are the flags as raised, nothing corrected"
+"C::<class>, I::<class>",ADJUDICATED coded statement present in the complaint (C) or investigation (I) text (flags rebuilt by apply_adjudication.py from the reviewed audit)

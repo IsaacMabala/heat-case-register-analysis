@@ -1,0 +1,7 @@
+case_id,doa,shaft,level,wb,db,vel,designation,occ_group,band,at_band_a_limit
+C058,2023-08-22,A,123,32.4,37.0,0.9,Heat cramps,Engineering and services,Band B,True
+C085,2024-01-04,A,116,37.0,37.0,0.0,Heat cramps,Supervision,Band A,False
+C091,2024-01-04,A,116,37.0,37.0,0.0,Heat stroke,Supervision,Band A,False
+C101,2024-03-26,A,126,33.0,33.5,0.8,Heat cramps,Stoping and production,Band A,False
+C103,2024-04-04,A,126,32.5,35.5,0.47,Heat cramps,"Transport, loading and cleaning",Band B,True
+C142,2024-09-02,A,126,32.5,33.5,1.1,Heat cramps,Scraping and winching,Band B,True

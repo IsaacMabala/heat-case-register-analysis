@@ -1,0 +1,2 @@
+validation,train_n,test_n,n,positive_n,positive_prevalence,threshold,roc_auc,pr_auc,balanced_accuracy,precision_positive,recall_positive,specificity_negative,f1_positive,brier_score
+"Train on 2023, evaluate on 2024",69,71,71,6,0.08450704225352113,0.5,0.2358974358974359,0.06382438018002419,0.45384615384615384,0.0,0.0,0.9076923076923077,0.0,0.16286304629170886

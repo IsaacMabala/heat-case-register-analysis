@@ -1,0 +1,4 @@
+Class,n,Monday,Other days,OR Monday vs other (95% CI),p (Fisher)
+Documented within ~48 h or affirmed (all),19,13,6,9.7 (3.4-27.7),1.3e-05
+Explicit timing only,13,10,3,13.9 (3.6-53.3),3.5e-05
+Affirmed without timing (bare yes/possible),6,3,3,-,-

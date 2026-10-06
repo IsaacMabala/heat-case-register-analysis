@@ -1,0 +1,4 @@
+case_id,wb,db,vel,qc_flag
+C137,30.8,31.8,31.8,copied-value logic failure (velocity equals the dry-bulb entry)
+C140,28.5,33.8,10.5,extreme high-value review (above 10 m/s)
+C168,30.0,33.0,5.1,high-value review (above 5 m/s)

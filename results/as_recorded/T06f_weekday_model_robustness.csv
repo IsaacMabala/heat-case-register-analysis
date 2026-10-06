@@ -1,0 +1,5 @@
+Contrast,"Poisson, robust (HC1) SE",Quasi-Poisson (Pearson dispersion),Negative binomial (NB2),Week-block bootstrap 95% percentile interval
+Tuesday vs Friday,6.43 (3.15-13.11),6.43 (3.00-13.76),6.38 (3.12-13.04),3.36-16.78
+Monday vs Friday,4.19 (1.99-8.83),4.19 (1.90-9.21),4.12 (1.97-8.62),2.16-10.95
+Days 25-31 vs other days,0.91 (0.61-1.35),0.91 (0.59-1.38),0.90 (0.59-1.38),-
+Monday-Tuesday vs Wednesday-Friday (grouped model),2.31 (1.60-3.33),-,-,1.61-3.43

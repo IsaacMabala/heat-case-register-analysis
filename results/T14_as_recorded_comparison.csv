@@ -1,0 +1,21 @@
+Result,"Analysis set (cleaned, n = 178)",Register as recorded (n = 179)
+Cases 2023 / 2024,84 / 94,84 / 95
+Monthly cases 2023-01,5,6
+Monthly cases 2023-10,8,7
+Monthly cases 2024-01,8,9
+Monthly cases 2024-07,12,13
+Monthly cases 2024-10,9,8
+Cases on Monday,42,42
+Cases on Tuesday,65,65
+Cases on Wednesday,35,37
+Cases on Thursday,23,22
+Body cramps (n),46,47
+Quality-valid environmental readings,142,142
+Velocity <0.5 m/s among quality-valid readings,23/142 = 16% (95% CI 11-23%),23/142 = 16% (95% CI 11-23%)
+Same-level short-window concentrations (>=3 cases in 3 days),A-123 13 May 2024 to 14 May 2024 (3); A-123 09 Sep 2024 to 11 Sep 2024 (7); A-123 11 Nov 2024 to 12 Nov 2024 (5); A-126 30 Oct 2023 to 02 Nov 2023 (5),A-123 13 May 2024 to 14 May 2024 (3); A-123 09 Sep 2024 to 11 Sep 2024 (7); A-123 11 Nov 2024 to 12 Nov 2024 (5); A-126 30 Oct 2023 to 02 Nov 2023 (4); A-126 10 Jan 2024 to 11 Jan 2024 (3)
+Previous episode recorded,51,51
+Acute illness recorded,30,31
+"Season x designation (supplementary S4, exploratory)","Cramer's V 0.21, p = 0.0474","Cramer's V 0.26, p = 0.0077"
+Monday-Tuesday vs Wednesday-Friday calendar count ratio,2.34 (1.63-3.35),2.31 (1.60-3.33)
+Tuesday vs Friday calendar count ratio,6.43 (3.14-13.15),6.43 (3.15-13.11)
+A-123 largest 3-day count: P under null A / null B,0.0037 / 0.0338,0.0046 / 0.0328

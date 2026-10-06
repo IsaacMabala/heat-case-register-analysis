@@ -1,0 +1,996 @@
+{
+ "N": 179,
+ "mode": "as_recorded",
+ "env": {
+  "assessable": 142,
+  "bandA": 3,
+  "at_limit": 3,
+  "bandB": 123,
+  "bandC": 11,
+  "bandD": 5,
+  "v025": 2,
+  "v05": 23,
+  "v10": 90,
+  "review": 26,
+  "review10": 90,
+  "wb_med": 30.6,
+  "db_med": 32.5,
+  "vel_med": 0.8,
+  "v05_ci": "23/142 = 16% (95% CI 11-23%)",
+  "v10_ci": "90/142 = 63% (95% CI 55-71%)",
+  "v025_ci": "2/142 = 1% (95% CI 0-5%)",
+  "review_ci": "26/142 = 18% (95% CI 13-25%)",
+  "review10_ci": "90/142 = 63% (95% CI 55-71%)",
+  "within_ci": "111/142 = 78% (95% CI 71-84%)",
+  "states": {
+   "Band B or C; velocity >=0.5 m/s": 111,
+   "Band B or C; velocity 0.25-<0.5 m/s": 20,
+   "Band B or C; velocity <0.25 m/s": 0,
+   "Band A or at its limit": 6,
+   "Band D (below hot threshold)": 5,
+   "Not assessable": 37
+  },
+  "shaft_v05": {
+   "A": [
+    21,
+    109
+   ],
+   "B": [
+    2,
+    33
+   ]
+  },
+  "a51_n": 143,
+  "a51_v05": "23/143 = 16% (95% CI 11-23%)"
+ },
+ "vent_velocity": {
+  "med_yes": 0.7,
+  "med_no": 0.9,
+  "hl": -0.19999999999999996,
+  "rb": -0.26993006993006996,
+  "p": 0.005547047093651312
+ },
+ "poisson": {
+  "Intercept": [
+   0.0932807068041038,
+   0.045938086827057564,
+   0.1894134227798993,
+   5.242858577399275e-11
+  ],
+  "C(weekday)[T.Monday]": [
+   4.188304824711142,
+   1.98579625012446,
+   8.833684374013288,
+   0.0001687787768957324
+  ],
+  "C(weekday)[T.Tuesday]": [
+   6.428878848626227,
+   3.151942027135003,
+   13.112704134308443,
+   3.1089796784561173e-07
+  ],
+  "C(weekday)[T.Wednesday]": [
+   3.705921030706896,
+   1.7201747129901432,
+   7.983985918478245,
+   0.0008223937970781564
+  ],
+  "C(weekday)[T.Thursday]": [
+   2.204670366568423,
+   0.9702458220803833,
+   5.009628812214822,
+   0.05904810581642415
+  ],
+  "C(weekday)[T.Saturday]": [
+   0.1000311889578129,
+   0.01276552414565056,
+   0.783848641868965,
+   0.028392559549956103
+  ],
+  "C(weekday)[T.Sunday]": [
+   0.20012710183718,
+   0.043652174868432675,
+   0.9174996895449541,
+   0.03837817179437762
+  ],
+  "C(year)[T.2024]": [
+   1.2621392075520725,
+   0.890589612666336,
+   1.7886974613042086,
+   0.19065697385566216
+  ],
+  "sin": [
+   0.8014225883772795,
+   0.6356817174776604,
+   1.0103769661802642,
+   0.061119038566673646
+  ],
+  "cos": [
+   0.9343891290883057,
+   0.7083293390724664,
+   1.2325947781602207,
+   0.6310851004348642
+  ],
+  "pay": [
+   0.9076564611552337,
+   0.6121250999465022,
+   1.3458690904013628,
+   0.6297596758175793
+  ],
+  "dispersion": 1.3068875322830211
+ },
+ "robust": {
+  "dispersion": 1.3068875322830211,
+  "nb_alpha": 0.8186467172034744,
+  "montue_rr": [
+   2.307251363067524,
+   1.5991447935211405,
+   3.328909848529343,
+   7.822623587818197e-06
+  ],
+  "montue_boot": [
+   1.6105477290468775,
+   3.4282695620952053
+  ],
+  "tue_boot": [
+   3.363091425899384,
+   16.77751963103502
+  ],
+  "mon_boot": [
+   2.1570087651392993,
+   10.94750902428731
+  ],
+  "nb_tue": [
+   6.3788778301676805,
+   3.12159623561536,
+   13.035024167430002
+  ],
+  "qp_tue": [
+   6.428878848626227,
+   3.0032150090516767,
+   13.76207934688119
+  ],
+  "nboot_ok": 2000
+ },
+ "alcohol_timing": {
+  "all": 19,
+  "explicit": 13,
+  "bare": 6,
+  "explicit_monday": [
+   10,
+   42,
+   3,
+   137
+  ],
+  "explicit_or": [
+   13.958333333333334,
+   3.6307775908342834,
+   53.662077769868326,
+   3.306818609799491e-05
+  ],
+  "explicit_tuesday": 1
+ },
+ "alc_by_weekday": {
+  "Monday": 13,
+  "Tuesday": 2,
+  "Wednesday": 0,
+  "Thursday": 2,
+  "Friday": 2,
+  "Saturday": 0,
+  "Sunday": 0
+ },
+ "weekday": {
+  "Monday": 42,
+  "Tuesday": 65,
+  "Wednesday": 37,
+  "Thursday": 22,
+  "Friday": 10,
+  "Saturday": 1,
+  "Sunday": 2
+ },
+ "raise_top": [
+  [
+   "A126-R1",
+   11
+  ],
+  [
+   "A126-R2",
+   11
+  ],
+  [
+   "A123-R1",
+   9
+  ],
+  [
+   "A123-R2",
+   9
+  ],
+  [
+   "A123-R3",
+   8
+  ],
+  [
+   "A123-R4",
+   8
+  ],
+  [
+   "A123-R5",
+   8
+  ],
+  [
+   "A126-R3",
+   8
+  ],
+  [
+   "B120-R1",
+   7
+  ],
+  [
+   "B120-R2",
+   7
+  ]
+ ],
+ "raise_assigned": 157,
+ "section_top": [
+  [
+   "S01",
+   36
+  ],
+  [
+   "S02",
+   26
+  ],
+  [
+   "S03",
+   19
+  ],
+  [
+   "S04",
+   19
+  ],
+  [
+   "S05",
+   17
+  ]
+ ],
+ "level_by_shaft": {
+  "A-116": 2,
+  "A-120": 5,
+  "A-123": 62,
+  "A-126": 55,
+  "A-roving": 9,
+  "B-109": 2,
+  "B-112": 1,
+  "B-116": 11,
+  "B-118": 6,
+  "B-120": 24,
+  "B-126": 1,
+  "B-roving": 1
+ },
+ "clusters": [
+  {
+   "Shaft-level": "A-123",
+   "Window": "13 May 2024 to 14 May 2024",
+   "Cases": 3,
+   "Max in any 3 days": 3,
+   "Raise lines": 3,
+   "Velocity <0.5 m/s / assessable": "1/3",
+   "Above or at the statutory limit": 0,
+   "Investigation statements (coded, adjudicated)": "Ventilation controls absent or substandard; Ventilation column or duct leakage or distance; Mine-level refrigeration (fridge plant, bulk air cooler, chilled water); Water, wet conditions or fissure heat",
+   "Mine-level refrigeration coded": 1,
+   "Investigations present": 3,
+   "Level cases / 3-day expectation": "62 cases; lambda = 0.28",
+   "Descriptive Poisson P(>= observed in a 3-day window), unadjusted": "2.9e-03"
+  },
+  {
+   "Shaft-level": "A-123",
+   "Window": "09 Sep 2024 to 11 Sep 2024",
+   "Cases": 7,
+   "Max in any 3 days": 7,
+   "Raise lines": 6,
+   "Velocity <0.5 m/s / assessable": "0/6",
+   "Above or at the statutory limit": 0,
+   "Investigation statements (coded, adjudicated)": "Ventilation controls absent or substandard; Fan not operating, not installed or obstructed; Ore or material accumulation obstructing airflow; Local cooling equipment (cooling car, in-stope cooler)",
+   "Mine-level refrigeration coded": 0,
+   "Investigations present": 6,
+   "Level cases / 3-day expectation": "62 cases; lambda = 0.28",
+   "Descriptive Poisson P(>= observed in a 3-day window), unadjusted": "1.9e-08"
+  },
+  {
+   "Shaft-level": "A-123",
+   "Window": "11 Nov 2024 to 12 Nov 2024",
+   "Cases": 5,
+   "Max in any 3 days": 5,
+   "Raise lines": 3,
+   "Velocity <0.5 m/s / assessable": "0/4",
+   "Above or at the statutory limit": 0,
+   "Investigation statements (coded, adjudicated)": "Ventilation controls absent or substandard; Ore or material accumulation obstructing airflow; Local cooling equipment (cooling car, in-stope cooler); Mine-level refrigeration (fridge plant, bulk air cooler, chilled water)",
+   "Mine-level refrigeration coded": 2,
+   "Investigations present": 4,
+   "Level cases / 3-day expectation": "62 cases; lambda = 0.28",
+   "Descriptive Poisson P(>= observed in a 3-day window), unadjusted": "1.1e-05"
+  },
+  {
+   "Shaft-level": "A-126",
+   "Window": "30 Oct 2023 to 02 Nov 2023",
+   "Cases": 4,
+   "Max in any 3 days": 3,
+   "Raise lines": 3,
+   "Velocity <0.5 m/s / assessable": "1/2",
+   "Above or at the statutory limit": 0,
+   "Investigation statements (coded, adjudicated)": "Ventilation controls absent or substandard; Ore or material accumulation obstructing airflow",
+   "Mine-level refrigeration coded": 0,
+   "Investigations present": 2,
+   "Level cases / 3-day expectation": "55 cases; lambda = 0.25",
+   "Descriptive Poisson P(>= observed in a 3-day window), unadjusted": "2.0e-03"
+  },
+  {
+   "Shaft-level": "A-126",
+   "Window": "10 Jan 2024 to 11 Jan 2024",
+   "Cases": 3,
+   "Max in any 3 days": 3,
+   "Raise lines": 2,
+   "Velocity <0.5 m/s / assessable": "0/1",
+   "Above or at the statutory limit": 0,
+   "Investigation statements (coded, adjudicated)": "",
+   "Mine-level refrigeration coded": 0,
+   "Investigations present": 1,
+   "Level cases / 3-day expectation": "55 cases; lambda = 0.25",
+   "Descriptive Poisson P(>= observed in a 3-day window), unadjusted": "2.0e-03"
+  }
+ ],
+ "perm": [
+  {
+   "Shaft-level": "A-123",
+   "Cases": 62,
+   "Observed largest 3-day count": 7,
+   "Null A mean": "3.58",
+   "Null A 95th percentile": 5,
+   "P (null A: pooled-calendar re-dating)": "0.0046",
+   "Null B mean": "4.29",
+   "Null B 95th percentile": 6,
+   "P (null B: exact-date level allocation)": "0.0328"
+  },
+  {
+   "Shaft-level": "A-126",
+   "Cases": 55,
+   "Observed largest 3-day count": 3,
+   "Null A mean": "3.34",
+   "Null A 95th percentile": 5,
+   "P (null A: pooled-calendar re-dating)": "0.9155",
+   "Null B mean": "3.95",
+   "Null B 95th percentile": 6,
+   "P (null B: exact-date level allocation)": "0.9755"
+  },
+  {
+   "Shaft-level": "B-116",
+   "Cases": 11,
+   "Observed largest 3-day count": 2,
+   "Null A mean": "1.49",
+   "Null A 95th percentile": 2,
+   "P (null A: pooled-calendar re-dating)": "0.4680",
+   "Null B mean": "1.56",
+   "Null B 95th percentile": 2,
+   "P (null B: exact-date level allocation)": "0.5192"
+  },
+  {
+   "Shaft-level": "B-120",
+   "Cases": 24,
+   "Observed largest 3-day count": 2,
+   "Null A mean": "2.20",
+   "Null A 95th percentile": 3,
+   "P (null A: pooled-calendar re-dating)": "0.9603",
+   "Null B mean": "2.37",
+   "Null B 95th percentile": 4,
+   "P (null B: exact-date level allocation)": "0.9726"
+  },
+  {
+   "Shaft-level": "Any level (maximum over all levels)",
+   "Cases": 169,
+   "Observed largest 3-day count": 7,
+   "Null A mean": "3.88",
+   "Null A 95th percentile": 5,
+   "P (null A: pooled-calendar re-dating)": "0.0070",
+   "Null B mean": "4.80",
+   "Null B 95th percentile": 6,
+   "P (null B: exact-date level allocation)": "0.0485"
+  }
+ ],
+ "mentions": {
+  "Ventilation controls absent or substandard": {
+   "C": 10,
+   "I": 66,
+   "either": 72,
+   "hc_I": 65
+  },
+  "Fan not operating, not installed or obstructed": {
+   "C": 19,
+   "I": 9,
+   "either": 25,
+   "hc_I": 8
+  },
+  "Ventilation column or duct leakage or distance": {
+   "C": 1,
+   "I": 8,
+   "either": 9,
+   "hc_I": 8
+  },
+  "Ore or material accumulation obstructing airflow": {
+   "C": 7,
+   "I": 22,
+   "either": 27,
+   "hc_I": 22
+  },
+  "Local cooling equipment (cooling car, in-stope cooler)": {
+   "C": 0,
+   "I": 25,
+   "either": 25,
+   "hc_I": 23
+  },
+  "Mine-level refrigeration (fridge plant, bulk air cooler, chilled water)": {
+   "C": 1,
+   "I": 10,
+   "either": 10,
+   "hc_I": 9
+  },
+  "Water, wet conditions or fissure heat": {
+   "C": 0,
+   "I": 18,
+   "either": 18,
+   "hc_I": 18
+  },
+  "Work organisation (staff shortage, overtime, long shift, extra task)": {
+   "C": 16,
+   "I": 4,
+   "either": 19,
+   "hc_I": 3
+  },
+  "Drinking-water shortage": {
+   "C": 2,
+   "I": 2,
+   "either": 4,
+   "hc_I": 1
+  },
+  "Complaint not acted on or hazard known": {
+   "C": 8,
+   "I": 0,
+   "either": 8,
+   "hc_I": 0
+  },
+  "Entry examination, temperature measurement or supervision not done": {
+   "C": 2,
+   "I": 6,
+   "either": 8,
+   "hc_I": 6
+  },
+  "No substandard condition identified": {
+   "C": 0,
+   "I": 22,
+   "either": 22,
+   "hc_I": 21
+  }
+ },
+ "inv_not_done": 53,
+ "inv_not_done_bc": 44,
+ "any_operational_I": 103,
+ "any_operational_either": 108,
+ "matches_total": 258,
+ "hts": {
+  "usable": 172,
+  "valid": 170,
+  "median": 5.0,
+  "q1": 2.0,
+  "q3": 7.0,
+  "le6": 109,
+  "le12": 167,
+  "gt12": 3,
+  "inconsistent": 2,
+  "precision": {
+   "month": 169,
+   "missing": 7,
+   "day": 2,
+   "year": 1
+  }
+ },
+ "personal": {
+  "prev": 51,
+  "prev_known": 171,
+  "med": 67,
+  "ctrl": {
+   "No condition recorded": 112,
+   "Controlled or acceptable": 60,
+   "Poorly or partly controlled": 5,
+   "Control not known": 2
+  },
+  "alc": {
+   "Sober habits or no recent use": 117,
+   "More than 48 h before": 39,
+   "Within 48 h or affirmed": 19,
+   "Not recorded": 4
+  },
+  "acute": 31,
+  "any": 94,
+  "count": {
+   "0": 85,
+   "1": 83,
+   "2": 10,
+   "3": 1
+  },
+  "by_desig": {
+   "Body cramps": {
+    "n": 47,
+    "prev": 6,
+    "prev_known": 40,
+    "acute": 13,
+    "alc48": 2,
+    "alc_known": 44,
+    "medyes": 18,
+    "medpoor": 0
+   },
+   "Heat cramps": {
+    "n": 130,
+    "prev": 45,
+    "prev_known": 130,
+    "acute": 17,
+    "alc48": 17,
+    "alc_known": 129,
+    "medyes": 48,
+    "medpoor": 5
+   },
+   "Heat stroke": {
+    "n": 1,
+    "prev": 0,
+    "prev_known": 0,
+    "acute": 0,
+    "alc48": 0,
+    "alc_known": 1,
+    "medyes": 0,
+    "medpoor": 0
+   },
+   "Unclassified": {
+    "n": 1,
+    "prev": 0,
+    "prev_known": 1,
+    "acute": 1,
+    "alc48": 0,
+    "alc_known": 1,
+    "medyes": 1,
+    "medpoor": 0
+   }
+  }
+ },
+ "t11": {
+  "No recorded worker-context indicator": {
+   "Flagged by the review screen (above or at the statutory limit, or velocity <0.5 m/s)": 10,
+   "Within the review screen (Band B/C with velocity >=0.5 m/s, or Band D)": 54
+  },
+  "Recorded worker-context indicator": {
+   "Flagged by the review screen (above or at the statutory limit, or velocity <0.5 m/s)": 16,
+   "Within the review screen (Band B/C with velocity >=0.5 m/s, or Band D)": 62
+  }
+ },
+ "neither_hc": 45,
+ "t11b": {
+  "neither": 25,
+  "neither_ci": "25/142 = 18% (95% CI 12-25%)",
+  "or": [
+   1.210826210826211,
+   0.6101213978945287,
+   2.4029645868562106,
+   0.6037083997121233
+  ],
+  "table": {
+   "No recorded worker-context indicator": {
+    "Flagged at the 1.0 m/s upper screen (above or at the statutory limit, or velocity <1.0 m/s)": 39,
+    "Within the 1.0 m/s upper screen": 25
+   },
+   "Recorded worker-context indicator": {
+    "Flagged at the 1.0 m/s upper screen (above or at the statutory limit, or velocity <1.0 m/s)": 51,
+    "Within the 1.0 m/s upper screen": 27
+   }
+  }
+ },
+ "neither_ci": "54/142 = 38% (95% CI 30-46%)",
+ "tests": [
+  {
+   "Family": "Environment",
+   "Contrast": "Shaft A vs Shaft B: velocity <0.5 m/s",
+   "Data": "21/109 vs 2/33",
+   "Estimate": "OR 3.7 (0.8-16.7)",
+   "Test": "Fisher exact",
+   "p": "0.104",
+   "q (BH within family)": "0.311"
+  },
+  {
+   "Family": "Environment",
+   "Contrast": "Shaft A vs Shaft B: velocity <1.0 m/s",
+   "Data": "69/109 vs 21/33",
+   "Estimate": "OR 1.0 (0.4-2.2)",
+   "Test": "Fisher exact",
+   "p": "1",
+   "q (BH within family)": "1"
+  },
+  {
+   "Family": "Environment",
+   "Contrast": "Night vs day shift: velocity <0.5 m/s",
+   "Data": "1/18 vs 12/99",
+   "Estimate": "OR 0.4 (0.1-3.5)",
+   "Test": "Fisher exact",
+   "p": "0.688",
+   "q (BH within family)": "0.826"
+  },
+  {
+   "Family": "Environment",
+   "Contrast": "Night vs day shift: wet-bulb temperature",
+   "Data": "medians 31.0 vs 30.6 C",
+   "Estimate": "Hodges-Lehmann shift +0.3 C; rank-biserial r +0.13",
+   "Test": "Mann-Whitney",
+   "p": "0.384",
+   "q (BH within family)": "0.577"
+  },
+  {
+   "Family": "Environment",
+   "Contrast": "Operational documentary mention (either source): readings flagged by the review screen vs not flagged",
+   "Data": "22/26 vs 82/116",
+   "Estimate": "OR 2.3 (0.7-7.1)",
+   "Test": "Fisher exact",
+   "p": "0.22",
+   "q (BH within family)": "0.439"
+  },
+  {
+   "Family": "Environment",
+   "Contrast": "Air velocity: investigation codes ventilation controls vs not",
+   "Data": "medians 0.70 vs 0.90 m/s",
+   "Estimate": "Hodges-Lehmann shift -0.20 m/s; rank-biserial r -0.27",
+   "Test": "Mann-Whitney",
+   "p": "0.00555",
+   "q (BH within family)": "0.0333"
+  },
+  {
+   "Family": "Operational",
+   "Contrast": "Weekday distribution Monday-Friday vs calendar days (Friday-independent)",
+   "Data": "Mon 42, Tue 65, Wed 37, Thu 22, Fri 10",
+   "Estimate": "chi-square 48.9 (4 df)",
+   "Test": "Chi-square goodness of fit",
+   "p": "6.26e-10",
+   "q (BH within family)": "4.38e-09"
+  },
+  {
+   "Family": "Operational",
+   "Contrast": "Monday-Tuesday vs Wednesday-Friday (calendar count ratio, grouped Poisson model)",
+   "Data": "RR 2.31",
+   "Estimate": "95% CI 1.60-3.33",
+   "Test": "Poisson GLM, robust SE",
+   "p": "7.82e-06",
+   "q (BH within family)": "1.83e-05"
+  },
+  {
+   "Family": "Operational",
+   "Contrast": "Tuesday vs Friday (calendar count ratio, Poisson model)",
+   "Data": "RR 6.43",
+   "Estimate": "95% CI 3.15-13.11",
+   "Test": "Poisson GLM, robust SE",
+   "p": "3.11e-07",
+   "q (BH within family)": "1.09e-06"
+  },
+  {
+   "Family": "Operational",
+   "Contrast": "Monday vs Friday (calendar count ratio, Poisson model)",
+   "Data": "RR 4.19",
+   "Estimate": "95% CI 1.99-8.83",
+   "Test": "Poisson GLM, robust SE",
+   "p": "0.000169",
+   "q (BH within family)": "0.000236"
+  },
+  {
+   "Family": "Operational",
+   "Contrast": "Days 25-31 vs other days (calendar count ratio, Poisson model)",
+   "Data": "RR 0.91",
+   "Estimate": "95% CI 0.61-1.35",
+   "Test": "Poisson GLM, robust SE",
+   "p": "0.63",
+   "q (BH within family)": "0.683"
+  },
+  {
+   "Family": "Operational",
+   "Contrast": "Alcohol <=48 h or affirmed, documented: Monday vs other days",
+   "Data": "13/42 vs 6/137",
+   "Estimate": "OR 9.8 (3.4-27.9)",
+   "Test": "Fisher exact",
+   "p": "1.19e-05",
+   "q (BH within family)": "2.08e-05"
+  },
+  {
+   "Family": "Operational",
+   "Contrast": "Alcohol <=48 h or affirmed, documented: Tuesday vs Wednesday-Sunday",
+   "Data": "2/65 vs 4/72",
+   "Estimate": "OR 0.5 (0.1-3.0)",
+   "Test": "Fisher exact",
+   "p": "0.683",
+   "q (BH within family)": "0.683"
+  },
+  {
+   "Family": "Worker context",
+   "Contrast": "Previous episode recorded: heat cramps vs body cramps",
+   "Data": "45/130 vs 6/40",
+   "Estimate": "OR 3.0 (1.2-7.7)",
+   "Test": "Fisher exact",
+   "p": "0.0184",
+   "q (BH within family)": "0.092"
+  },
+  {
+   "Family": "Worker context",
+   "Contrast": "Acute illness recorded: heat cramps vs body cramps",
+   "Data": "17/130 vs 13/47",
+   "Estimate": "OR 0.4 (0.2-0.9)",
+   "Test": "Fisher exact",
+   "p": "0.039",
+   "q (BH within family)": "0.0974"
+  },
+  {
+   "Family": "Worker context",
+   "Contrast": "Alcohol <=48 h or affirmed, documented: heat cramps vs body cramps",
+   "Data": "17/129 vs 2/44",
+   "Estimate": "OR 3.2 (0.7-14.4)",
+   "Test": "Fisher exact",
+   "p": "0.163",
+   "q (BH within family)": "0.272"
+  },
+  {
+   "Family": "Worker context",
+   "Contrast": "Medical condition recorded: heat cramps vs body cramps",
+   "Data": "48/130 vs 18/47",
+   "Estimate": "OR 0.9 (0.5-1.9)",
+   "Test": "Fisher exact",
+   "p": "0.862",
+   "q (BH within family)": "0.862"
+  },
+  {
+   "Family": "Worker context",
+   "Contrast": "Recorded worker-context indicator: readings flagged by the review screen vs not flagged",
+   "Data": "16/26 vs 62/116",
+   "Estimate": "OR 1.4 (0.6-3.3)",
+   "Test": "Fisher exact",
+   "p": "0.517",
+   "q (BH within family)": "0.647"
+  }
+ ],
+ "S4a": [
+  {
+   "Variable": "Age (years)",
+   "Heat cramps n; median (IQR)": "130; 42.00 (35.00-49.00)",
+   "Body cramps n; median (IQR)": "47; 39.00 (34.50-47.00)",
+   "Hodges-Lehmann difference (heat cramps minus body cramps)": "1.00",
+   "Rank-biserial r (positive: heat cramps higher)": "0.08",
+   "p (Mann-Whitney)": "0.396",
+   "q (BH, exploratory designation family)": "0.659"
+  },
+  {
+   "Variable": "Wet-bulb temperature (C)",
+   "Heat cramps n; median (IQR)": "124; 31.00 (30.00-31.50)",
+   "Body cramps n; median (IQR)": "16; 30.15 (29.50-30.50)",
+   "Hodges-Lehmann difference (heat cramps minus body cramps)": "0.60",
+   "Rank-biserial r (positive: heat cramps higher)": "0.38",
+   "p (Mann-Whitney)": "0.014",
+   "q (BH, exploratory designation family)": "0.068"
+  },
+  {
+   "Variable": "Dry-bulb temperature (C)",
+   "Heat cramps n; median (IQR)": "124; 32.55 (31.95-33.50)",
+   "Body cramps n; median (IQR)": "16; 32.00 (31.65-32.85)",
+   "Hodges-Lehmann difference (heat cramps minus body cramps)": "0.50",
+   "Rank-biserial r (positive: heat cramps higher)": "0.24",
+   "p (Mann-Whitney)": "0.117",
+   "q (BH, exploratory designation family)": "0.292"
+  },
+  {
+   "Variable": "Air velocity (m/s)",
+   "Heat cramps n; median (IQR)": "124; 0.80 (0.50-1.10)",
+   "Body cramps n; median (IQR)": "16; 0.80 (0.58-1.20)",
+   "Hodges-Lehmann difference (heat cramps minus body cramps)": "0.00",
+   "Rank-biserial r (positive: heat cramps higher)": "-0.03",
+   "p (Mann-Whitney)": "0.851",
+   "q (BH, exploratory designation family)": "0.851"
+  },
+  {
+   "Variable": "Months since last HTS",
+   "Heat cramps n; median (IQR)": "126; 5.00 (2.00-7.00)",
+   "Body cramps n; median (IQR)": "42; 5.00 (2.00-8.00)",
+   "Hodges-Lehmann difference (heat cramps minus body cramps)": "0.00",
+   "Rank-biserial r (positive: heat cramps higher)": "-0.03",
+   "p (Mann-Whitney)": "0.764",
+   "q (BH, exploratory designation family)": "0.851"
+  }
+ ],
+ "S4b": [
+  {
+   "Factor": "Season",
+   "Test": "Chi-square",
+   "Statistic": "Cramer's V 0.26",
+   "p": "0.0077",
+   "q (BH, exploratory designation family)": "0.0308",
+   "Note": ""
+  },
+  {
+   "Factor": "Occupation (production vs other)",
+   "Test": "Chi-square",
+   "Statistic": "Cramer's V 0.04",
+   "p": "0.575",
+   "q (BH, exploratory designation family)": "0.657",
+   "Note": ""
+  },
+  {
+   "Factor": "Shift (day/night/not recorded)",
+   "Test": "Chi-square",
+   "Statistic": "Cramer's V 0.17",
+   "p": "0.0726",
+   "q (BH, exploratory designation family)": "0.116",
+   "Note": ""
+  },
+  {
+   "Factor": "Previous episode recorded",
+   "Test": "Fisher exact",
+   "Statistic": "OR 3.0 (1.2-7.7)",
+   "p": "0.0184",
+   "q (BH, exploratory designation family)": "0.0491",
+   "Note": "The primary-family q-value for the worker-context contrasts is in the statistical-tests table (worker-context family)"
+  },
+  {
+   "Factor": "Acute illness recorded",
+   "Test": "Fisher exact",
+   "Statistic": "OR 0.4 (0.2-0.9)",
+   "p": "0.039",
+   "q (BH, exploratory designation family)": "0.078",
+   "Note": "The primary-family q-value for the worker-context contrasts is in the statistical-tests table (worker-context family)"
+  },
+  {
+   "Factor": "Alcohol <=48 h or affirmed, documented",
+   "Test": "Fisher exact",
+   "Statistic": "OR 3.2 (0.7-14.4)",
+   "p": "0.163",
+   "q (BH, exploratory designation family)": "0.217",
+   "Note": "The primary-family q-value for the worker-context contrasts is in the statistical-tests table (worker-context family)"
+  },
+  {
+   "Factor": "Medical condition recorded",
+   "Test": "Fisher exact",
+   "Statistic": "OR 0.9 (0.5-1.9)",
+   "p": "0.862",
+   "q (BH, exploratory designation family)": "0.862",
+   "Note": "The primary-family q-value for the worker-context contrasts is in the statistical-tests table (worker-context family)"
+  },
+  {
+   "Factor": "Environmental reading recorded",
+   "Test": "Fisher exact",
+   "Statistic": "OR 82 (22-299)",
+   "p": "1.77e-19",
+   "q (BH, exploratory designation family)": "1.41e-18",
+   "Note": ""
+  }
+ ],
+ "S5_top": [
+  {
+   "Factor 1": "Inv: Ventilation controls absent or substandard",
+   "Factor 2": "Inv: Water, wet conditions or fissure heat",
+   "Both": 13,
+   "Expected both": "6.6",
+   "phi": "0.24",
+   "p (Fisher)": "0.00164",
+   "q (BH)": "0.0837"
+  },
+  {
+   "Factor 1": "Inv: Ore or material accumulation obstructing airflow",
+   "Factor 2": "Inv: Water, wet conditions or fissure heat",
+   "Both": 7,
+   "Expected both": "2.2",
+   "phi": "0.27",
+   "p (Fisher)": "0.00215",
+   "q (BH)": "0.0837"
+  },
+  {
+   "Factor 1": "Inv: Local cooling equipment",
+   "Factor 2": "Above or at the statutory limit",
+   "Both": 4,
+   "Expected both": "0.8",
+   "phi": "0.28",
+   "p (Fisher)": "0.00375",
+   "q (BH)": "0.0975"
+  },
+  {
+   "Factor 1": "Inv: Local cooling equipment",
+   "Factor 2": "Inv: Mine-level refrigeration",
+   "Both": 5,
+   "Expected both": "1.4",
+   "phi": "0.25",
+   "p (Fisher)": "0.00558",
+   "q (BH)": "0.109"
+  },
+  {
+   "Factor 1": "Inv: Ventilation controls absent or substandard",
+   "Factor 2": "Acute illness",
+   "Both": 6,
+   "Expected both": "11.4",
+   "phi": "-0.17",
+   "p (Fisher)": "0.0392",
+   "q (BH)": "0.447"
+  },
+  {
+   "Factor 1": "Velocity <0.5 m/s (assessable)",
+   "Factor 2": "Above or at the statutory limit",
+   "Both": 3,
+   "Expected both": "0.8",
+   "phi": "0.21",
+   "p (Fisher)": "0.0289",
+   "q (BH)": "0.447"
+  }
+ ],
+ "monthly": {
+  "2023-01": 6,
+  "2023-02": 5,
+  "2023-03": 12,
+  "2023-04": 6,
+  "2023-05": 8,
+  "2023-06": 4,
+  "2023-07": 9,
+  "2023-08": 10,
+  "2023-09": 10,
+  "2023-10": 7,
+  "2023-11": 4,
+  "2023-12": 3,
+  "2024-01": 9,
+  "2024-02": 5,
+  "2024-03": 4,
+  "2024-04": 8,
+  "2024-05": 7,
+  "2024-06": 7,
+  "2024-07": 13,
+  "2024-08": 4,
+  "2024-09": 19,
+  "2024-10": 8,
+  "2024-11": 11
+ },
+ "n2023": 84,
+ "n2024": 95,
+ "desig": {
+  "Heat cramps": 130,
+  "Body cramps": 47,
+  "Heat stroke": 1,
+  "Unclassified": 1
+ },
+ "shaft": {
+  "A": 133,
+  "B": 46
+ },
+ "shift": {
+  "Day": 125,
+  "Not recorded": 32,
+  "Night": 22
+ },
+ "occ": {
+  "Stoping and production": 101,
+  "Scraping and winching": 30,
+  "Development and raise work": 22,
+  "Transport, loading and cleaning": 10,
+  "Blasting and charging": 8,
+  "Engineering and services": 5,
+  "Supervision": 3
+ },
+ "season": {
+  "Spring": 59,
+  "Winter": 47,
+  "Autumn": 45,
+  "Summer": 28
+ },
+ "employment": {
+  "Permanent": 177,
+  "Contractor": 2
+ },
+ "generic": 55,
+ "complete": 142,
+ "triplet": 145,
+ "qc": 3,
+ "bc_no_triplet": 31,
+ "dx_lag_median": 1.0,
+ "inv_present": 126,
+ "complaint_present": 164
+}

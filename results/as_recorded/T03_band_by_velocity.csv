@@ -1,0 +1,6 @@
+DMPR band (numerical range),Readings,Velocity <0.25 m/s,Velocity 0.25-<0.5 m/s,Velocity 0.5-<1.0 m/s,Velocity >=1.0 m/s
+Band A,3/142 = 2% (95% CI 1-6%),2,0,1,0
+Band B,123/142 = 87% (95% CI 80-91%),0,19,62,42
+Band C,11/142 = 8% (95% CI 4-13%),0,2,3,6
+Band D,5/142 = 4% (95% CI 2-8%),0,0,1,4
+"At the statutory limit (WB = 32.5 C or DB = 37.0 C), counted in Band B",3,,,,

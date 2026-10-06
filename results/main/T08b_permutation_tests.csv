@@ -1,0 +1,6 @@
+Shaft-level,Cases,Observed largest 3-day count,Null A mean,Null A 95th percentile,P (null A: pooled-calendar re-dating),Null B mean,Null B 95th percentile,P (null B: exact-date level allocation)
+A-123,62,7,3.57,5,0.0037,4.34,6,0.0338
+A-126,55,4,3.34,5,0.3400,3.98,6,0.6341
+B-116,10,1,1.42,2,1.0000,1.48,2,1.0000
+B-120,24,2,2.20,3,0.9570,2.37,4,0.9765
+Any level (maximum over all levels),168,7,3.87,5,0.0053,4.84,7,0.0507

@@ -1,0 +1,24 @@
+Measure,Result
+Case rows in the register,179
+Cases in this set,179
+Candidate duplicate rows (flagged),2
+Case dates internally inconsistent with the diagnosis date (flagged),2
+Recorded weekday disagrees with case date (flagged),6
+Diagnosis dates flagged for review,2
+Cases dated 2023 / 2024,84 / 95
+Observed case dates,10 Jan 2023 to 12 Nov 2024
+Designation: heat cramps / body cramps / heat stroke / unclassified,130 / 47 / 1 / 1
+Shaft A / Shaft B,133 / 46
+Permanent / contractor,177 / 2
+"Age, median (IQR), range","41 (35-49), 20-58"
+Workplace recorded,176 (98.3%)
+Level identified,169 (94.4%)
+Raise line identified,157 (87.7%)
+Section recorded,168 (93.9%)
+Shift recorded,147 (82.1%)
+"Wet-bulb, dry-bulb and velocity all recorded",145 (81.0%)
+Readings with a review flag (retained; excluded from environmental analyses),3
+Quality-valid environmental readings,142 (79.3%)
+Employee complaint text present,164 (91.6%)
+Investigation statement present,126 (70.4%)
+Last heat-tolerance screening date usable (month or day precision),172 (96.1%)

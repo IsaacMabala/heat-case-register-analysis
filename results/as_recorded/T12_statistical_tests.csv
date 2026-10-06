@@ -1,0 +1,19 @@
+Family,Contrast,Data,Estimate,Test,p,q (BH within family)
+Environment,Shaft A vs Shaft B: velocity <0.5 m/s,21/109 vs 2/33,OR 3.7 (0.8-16.7),Fisher exact,0.104,0.311
+Environment,Shaft A vs Shaft B: velocity <1.0 m/s,69/109 vs 21/33,OR 1.0 (0.4-2.2),Fisher exact,1,1
+Environment,Night vs day shift: velocity <0.5 m/s,1/18 vs 12/99,OR 0.4 (0.1-3.5),Fisher exact,0.688,0.826
+Environment,Night vs day shift: wet-bulb temperature,medians 31.0 vs 30.6 C,Hodges-Lehmann shift +0.3 C; rank-biserial r +0.13,Mann-Whitney,0.384,0.577
+Environment,Operational documentary mention (either source): readings flagged by the review screen vs not flagged,22/26 vs 82/116,OR 2.3 (0.7-7.1),Fisher exact,0.22,0.439
+Environment,Air velocity: investigation codes ventilation controls vs not,medians 0.70 vs 0.90 m/s,Hodges-Lehmann shift -0.20 m/s; rank-biserial r -0.27,Mann-Whitney,0.00555,0.0333
+Operational,Weekday distribution Monday-Friday vs calendar days (Friday-independent),"Mon 42, Tue 65, Wed 37, Thu 22, Fri 10",chi-square 48.9 (4 df),Chi-square goodness of fit,6.26e-10,4.38e-09
+Operational,"Monday-Tuesday vs Wednesday-Friday (calendar count ratio, grouped Poisson model)",RR 2.31,95% CI 1.60-3.33,"Poisson GLM, robust SE",7.82e-06,1.83e-05
+Operational,"Tuesday vs Friday (calendar count ratio, Poisson model)",RR 6.43,95% CI 3.15-13.11,"Poisson GLM, robust SE",3.11e-07,1.09e-06
+Operational,"Monday vs Friday (calendar count ratio, Poisson model)",RR 4.19,95% CI 1.99-8.83,"Poisson GLM, robust SE",0.000169,0.000236
+Operational,"Days 25-31 vs other days (calendar count ratio, Poisson model)",RR 0.91,95% CI 0.61-1.35,"Poisson GLM, robust SE",0.63,0.683
+Operational,"Alcohol <=48 h or affirmed, documented: Monday vs other days",13/42 vs 6/137,OR 9.8 (3.4-27.9),Fisher exact,1.19e-05,2.08e-05
+Operational,"Alcohol <=48 h or affirmed, documented: Tuesday vs Wednesday-Sunday",2/65 vs 4/72,OR 0.5 (0.1-3.0),Fisher exact,0.683,0.683
+Worker context,Previous episode recorded: heat cramps vs body cramps,45/130 vs 6/40,OR 3.0 (1.2-7.7),Fisher exact,0.0184,0.092
+Worker context,Acute illness recorded: heat cramps vs body cramps,17/130 vs 13/47,OR 0.4 (0.2-0.9),Fisher exact,0.039,0.0974
+Worker context,"Alcohol <=48 h or affirmed, documented: heat cramps vs body cramps",17/129 vs 2/44,OR 3.2 (0.7-14.4),Fisher exact,0.163,0.272
+Worker context,Medical condition recorded: heat cramps vs body cramps,48/130 vs 18/47,OR 0.9 (0.5-1.9),Fisher exact,0.862,0.862
+Worker context,Recorded worker-context indicator: readings flagged by the review screen vs not flagged,16/26 vs 62/116,OR 1.4 (0.6-3.3),Fisher exact,0.517,0.647

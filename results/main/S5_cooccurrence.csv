@@ -1,0 +1,79 @@
+Factor 1,Factor 2,Both,Expected both,phi,p (Fisher),q (BH)
+Inv: Ventilation controls absent or substandard,"Inv: Water, wet conditions or fissure heat",13,6.7,0.24,0.00173,0.0867
+Inv: Ore or material accumulation obstructing airflow,"Inv: Water, wet conditions or fissure heat",7,2.2,0.27,0.00222,0.0867
+Inv: Local cooling equipment,Above or at the statutory limit,4,0.8,0.28,0.00383,0.0996
+Inv: Local cooling equipment,Inv: Mine-level refrigeration,5,1.4,0.25,0.00572,0.112
+Acute illness,Medical condition,17,11.3,0.18,0.0232,0.362
+Velocity <0.5 m/s (assessable),Above or at the statutory limit,3,0.8,0.21,0.0293,0.381
+Inv: Ventilation controls absent or substandard,Acute illness,6,11.1,-0.16,0.0387,0.431
+Previous episode,Acute illness,4,8.6,-0.15,0.0471,0.459
+Inv: Ventilation column or duct leakage or distance,Inv: Mine-level refrigeration,2,0.4,0.18,0.0665,0.536
+Inv: Ventilation column or duct leakage or distance,Velocity <0.5 m/s (assessable),3,1.0,0.16,0.0687,0.536
+Inv: Ventilation controls absent or substandard,Alcohol <=48 h or affirmed,4,7.0,-0.11,0.141,0.849
+Inv: Ore or material accumulation obstructing airflow,Acute illness,1,3.7,-0.12,0.131,0.849
+Inv: Local cooling equipment,"Inv: Water, wet conditions or fissure heat",5,2.5,0.13,0.142,0.849
+Inv: Mine-level refrigeration,Previous episode,5,2.9,0.12,0.152,0.849
+Inv: Ventilation controls absent or substandard,Velocity <0.5 m/s (assessable),12,8.5,0.12,0.164,0.851
+Above or at the statutory limit,Previous episode,0,1.7,-0.12,0.184,0.899
+Inv: Ventilation controls absent or substandard,Inv: Ore or material accumulation obstructing airflow,11,8.2,0.10,0.238,0.952
+Inv: Ventilation column or duct leakage or distance,Above or at the statutory limit,1,0.3,0.11,0.244,0.952
+Inv: Mine-level refrigeration,Acute illness,0,1.7,-0.11,0.216,0.952
+"Inv: Water, wet conditions or fissure heat",Alcohol <=48 h or affirmed,0,1.9,-0.12,0.224,0.952
+Inv: Ventilation controls absent or substandard,Inv: Ventilation column or duct leakage or distance,1,3.0,-0.11,0.261,0.969
+Inv: Ventilation controls absent or substandard,"Inv: Fan not operating, not installed or obstructed",3,3.3,-0.02,1,1
+Inv: Ventilation controls absent or substandard,Inv: Local cooling equipment,11,9.3,0.06,0.505,1
+Inv: Ventilation controls absent or substandard,Inv: Mine-level refrigeration,2,3.7,-0.09,0.327,1
+Inv: Ventilation controls absent or substandard,Above or at the statutory limit,2,2.2,-0.01,1,1
+Inv: Ventilation controls absent or substandard,Previous episode,21,18.9,0.05,0.496,1
+Inv: Ventilation controls absent or substandard,Medical condition,23,24.8,-0.04,0.632,1
+"Inv: Fan not operating, not installed or obstructed",Inv: Ventilation column or duct leakage or distance,1,0.4,0.07,0.345,1
+"Inv: Fan not operating, not installed or obstructed",Inv: Ore or material accumulation obstructing airflow,1,1.1,-0.01,1,1
+"Inv: Fan not operating, not installed or obstructed",Inv: Local cooling equipment,2,1.3,0.05,0.616,1
+"Inv: Fan not operating, not installed or obstructed",Inv: Mine-level refrigeration,1,0.5,0.06,0.413,1
+"Inv: Fan not operating, not installed or obstructed","Inv: Water, wet conditions or fissure heat",0,0.9,-0.08,0.601,1
+"Inv: Fan not operating, not installed or obstructed",Velocity <0.5 m/s (assessable),0,1.2,-0.09,0.607,1
+"Inv: Fan not operating, not installed or obstructed",Above or at the statutory limit,0,0.3,-0.04,1,1
+"Inv: Fan not operating, not installed or obstructed",Previous episode,2,2.6,-0.03,1,1
+"Inv: Fan not operating, not installed or obstructed",Acute illness,0,1.5,-0.10,0.36,1
+"Inv: Fan not operating, not installed or obstructed",Alcohol <=48 h or affirmed,1,1.0,0.00,1,1
+"Inv: Fan not operating, not installed or obstructed",Medical condition,3,3.4,-0.02,1,1
+Inv: Ventilation column or duct leakage or distance,Inv: Ore or material accumulation obstructing airflow,0,1.0,-0.08,0.598,1
+Inv: Ventilation column or duct leakage or distance,Inv: Local cooling equipment,2,1.1,0.07,0.312,1
+Inv: Ventilation column or duct leakage or distance,"Inv: Water, wet conditions or fissure heat",0,0.8,-0.07,1,1
+Inv: Ventilation column or duct leakage or distance,Previous episode,3,2.3,0.04,0.691,1
+Inv: Ventilation column or duct leakage or distance,Acute illness,2,1.3,0.05,0.624,1
+Inv: Ventilation column or duct leakage or distance,Alcohol <=48 h or affirmed,0,0.9,-0.07,1,1
+Inv: Ventilation column or duct leakage or distance,Medical condition,3,3.0,-0.00,1,1
+Inv: Ore or material accumulation obstructing airflow,Inv: Local cooling equipment,3,3.1,-0.00,1,1
+Inv: Ore or material accumulation obstructing airflow,Inv: Mine-level refrigeration,2,1.2,0.06,0.357,1
+Inv: Ore or material accumulation obstructing airflow,Velocity <0.5 m/s (assessable),3,2.8,0.01,1,1
+Inv: Ore or material accumulation obstructing airflow,Above or at the statutory limit,0,0.7,-0.07,1,1
+Inv: Ore or material accumulation obstructing airflow,Previous episode,8,6.3,0.06,0.451,1
+Inv: Ore or material accumulation obstructing airflow,Alcohol <=48 h or affirmed,3,2.3,0.04,0.71,1
+Inv: Ore or material accumulation obstructing airflow,Medical condition,9,8.3,0.03,0.815,1
+Inv: Local cooling equipment,Velocity <0.5 m/s (assessable),3,3.2,-0.01,1,1
+Inv: Local cooling equipment,Previous episode,6,7.2,-0.04,0.642,1
+Inv: Local cooling equipment,Acute illness,3,4.2,-0.05,0.773,1
+Inv: Local cooling equipment,Alcohol <=48 h or affirmed,2,2.7,-0.04,1,1
+Inv: Local cooling equipment,Medical condition,11,9.4,0.05,0.509,1
+Inv: Mine-level refrigeration,"Inv: Water, wet conditions or fissure heat",0,1.0,-0.08,0.601,1
+Inv: Mine-level refrigeration,Velocity <0.5 m/s (assessable),2,1.3,0.05,0.62,1
+Inv: Mine-level refrigeration,Above or at the statutory limit,0,0.3,-0.05,1,1
+Inv: Mine-level refrigeration,Alcohol <=48 h or affirmed,1,1.1,-0.01,1,1
+Inv: Mine-level refrigeration,Medical condition,5,3.8,0.06,0.506,1
+"Inv: Water, wet conditions or fissure heat",Velocity <0.5 m/s (assessable),2,2.3,-0.02,1,1
+"Inv: Water, wet conditions or fissure heat",Above or at the statutory limit,0,0.6,-0.06,1,1
+"Inv: Water, wet conditions or fissure heat",Previous episode,4,5.2,-0.05,0.596,1
+"Inv: Water, wet conditions or fissure heat",Acute illness,2,3.0,-0.05,0.742,1
+"Inv: Water, wet conditions or fissure heat",Medical condition,7,6.8,0.01,1,1
+Velocity <0.5 m/s (assessable),Previous episode,9,6.6,0.09,0.322,1
+Velocity <0.5 m/s (assessable),Acute illness,4,3.9,0.01,1,1
+Velocity <0.5 m/s (assessable),Alcohol <=48 h or affirmed,1,2.5,-0.08,0.475,1
+Velocity <0.5 m/s (assessable),Medical condition,7,8.7,-0.06,0.498,1
+Above or at the statutory limit,Acute illness,0,1.0,-0.08,0.591,1
+Above or at the statutory limit,Alcohol <=48 h or affirmed,1,0.6,0.04,0.497,1
+Above or at the statutory limit,Medical condition,1,2.3,-0.08,0.412,1
+Previous episode,Alcohol <=48 h or affirmed,5,5.4,-0.02,1,1
+Previous episode,Medical condition,19,19.2,-0.01,1,1
+Acute illness,Alcohol <=48 h or affirmed,2,3.2,-0.06,0.745,1
+Alcohol <=48 h or affirmed,Medical condition,7,7.2,-0.01,1,1

@@ -1,0 +1,3 @@
+case_type,total_n,complete_environment_n,complete_environment_percent,missing_environment_triplet_n,missing_environment_triplet_percent,fisher_exact_odds_ratio_body_vs_heat_for_missing_triplet,fisher_exact_p_value,interpretation
+Heat cramps,130,127,97.6923076923077,3,2.3076923076923075,82.02083333333333,1.7676876635356327e-19,Documentation completeness differs by recorded designation; not a biological effect.
+Body cramps,47,16,34.04255319148936,31,65.95744680851064,82.02083333333333,1.7676876635356327e-19,Documentation completeness differs by recorded designation; not a biological effect.

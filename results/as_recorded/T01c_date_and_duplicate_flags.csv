@@ -1,0 +1,13 @@
+case_id,doa_flag,dx_flag,dup_candidate
+C018,recorded weekday disagrees with case date,,False
+C024,,diagnosis date possibly month/day swapped,False
+C032,recorded weekday disagrees with case date,,False
+C043,recorded weekday disagrees with case date,,False
+C051,recorded weekday disagrees with case date,,False
+C058,recorded weekday disagrees with case date,,False
+C077,case date 275 days from diagnosis date; internally inconsistent,,False
+C103,recorded weekday disagrees with case date,,False
+C113,,diagnosis date unparseable (three-digit year),False
+C131,,,True
+C135,,,True
+C167,case date 275 days from diagnosis date; internally inconsistent,,False
